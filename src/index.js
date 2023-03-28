@@ -1,14 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/app.css';
-import reactLogo from './images/react.svg';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-const rootElement = document.getElementById('root');
-
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <div>
-    <h1>Hello from React application</h1>
-    <img src={reactLogo} className="logo react" alt="React logo" />
-  </div>,
-);
+ReactDOM.render(<App />, document.getElementById('root'));

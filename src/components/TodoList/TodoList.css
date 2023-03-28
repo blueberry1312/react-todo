@@ -1,0 +1,73 @@
+.todolist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos-container {
+  width: 100%;
+}
+
+.edit-icon {
+  cursor: pointer;
+  position: relative;
+  right: -220px;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.todo-item-active {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  color: #444;
+}
+
+.todo-item .check-box {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.check-box svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #444;
+}
+
+.todo-item .edit-icon,
+.todo-item .delete-icon {
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.todo-item:hover .edit-icon,
+.todo-item:hover .delete-icon {
+  opacity: 1;
+}
+
+.edit-icon svg,
+.delete-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
