@@ -1,0 +1,28 @@
+.input-container {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid #444;
+}
+
+.add-btn {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #222;
+}
